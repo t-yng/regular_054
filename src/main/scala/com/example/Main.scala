@@ -1,3 +1,4 @@
+package com.example
 
 object Main {
   def main(args: Array[String]): Unit = {
@@ -10,4 +11,7 @@ object Main {
     sorted map(x => list.indexOf(x) + 1) foreach(println)
   }
  
+  def solve(a: Int, b: Int): Int = {
+    a + b
+  }
 }
